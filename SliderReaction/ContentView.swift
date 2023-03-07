@@ -17,7 +17,7 @@ struct ContentView: View {
                 .fontWeight(.light)
                 .foregroundColor(.black)
                 .multilineTextAlignment(.center)
-                .padding(.top, 20)
+                .padding()
             
             Spacer(minLength: 0)
             
@@ -80,7 +80,7 @@ struct ContentView: View {
                     }
                 )
             }
-            .padding()
+            .padding(.horizontal)
             .frame(height: 45)
         }
         .background(
